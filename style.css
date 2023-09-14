@@ -39,15 +39,15 @@ nav{
 
 		}
 		section{
+			text-align:center;
 			color:linear-gradient(black, white);
-			font-size:20px;
-			
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content: center;
-	text-align:center;
-	max-width:500px;
+			font-size:20px;	
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			justify-content: center;
+			text-align:center;
+			max-width:500px;
 	
 		}
 		.vip{
