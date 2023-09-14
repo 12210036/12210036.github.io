@@ -43,11 +43,7 @@ nav{
 			text-align:center;
 			color:linear-gradient(black, white);
 			font-size:20px;	
-			display:flex;
-			flex-direction:column;
-			align-items:center;
-			justify-content: center;
-			
+			float:rigth;
 			max-width:500px;
 	
 		}
