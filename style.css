@@ -40,11 +40,13 @@ nav{
 		}
 		section{
 			text-align:center;
-			text-align:center;
+			align-items:center;
+			justify-content: center;
+			max-width:500px;
 			color:linear-gradient(black, white);
 			font-size:20px;	
 			float:center;
-			max-width:500px;
+			
 	
 		}
 		.vip{
