@@ -39,7 +39,9 @@ nav{
 
 		}
 		section{
-	
+			position: absolute;
+  top: 50%;
+  left: 50%;
 			margin:auto;
 			color:linear-gradient(black, white);
 			font-size:20px;	
