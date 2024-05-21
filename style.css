@@ -1,100 +1,52 @@
-body{
-	background: linear-gradient(white, black);
-	padding:0;
-		margin:0;
-		border:0;
-}
-nav{
-	float:right;
-	position:fixed;
-	width:100%;
-	height:20px;
+html {
+  height: 100%;
+  width: 100%;
 }
 
-		nav ul{
-			
-				list-style:none;
-				padding:0;
-				background:#88336c;
-				width:100%;
-				max-width:1000px;
-				margin:auto;
+.a {
+  float: left;
+  height:200px;
+  width: 300px;
+  position: absolute;
+  z-index: -1;
+  border-radius:20px;
+}
 
-		}
+.a:hover {
+  border-radius:20px;
+  display: none;
+}
 
-		nav ul li a {
-			text-decoration:none;
-			color:white;
-			padding:20px;
-			display:block;
-		}
-		nav ul li{
+.b:hover {
+  border-radius:20px;
+  float: left;
+}
 
-			display: inline-block;
-			text-align:center;
-		}
+.b {
 
-		nav ul li a:hover{
-			background-color:#133047;
+  height:200px;
+  margin: 0%;
+  width: 300px;
+  float: left;
+  position: absolute;
+  z-index: -2;
+  border-radius:20px;
+}
 
-		}
-		section{
-			color:linear-gradient(black, white);
-			font-size:20px;
-			margin-left:500px;
-			margin-right:500px;
-			display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content: center;
-	max-width:500px;
-	text-align:center;
-		}
-		.vip{
-			
-			margin:10px;
-		text-align:center;
-		font-size:50px;
-		}
-	.vip2{
-		margin-left:400px;
-	}
+h1{
+  
+  width:200px;
+  background: linear-gradient(to right, #ffffff, #9e5010);
+}
 
-	footer{
-		color:white;
-		margin:auto;
-		border:0;
-		text-align:center;
-			background:black;
-	}
-	footer ul li {
-		list-style:none;
-	}
-	.three{
-		color:white;
-	}
-.h{	
-					position:fixed;
-						display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content: center;
-					float:right;
-					background:linear-gradient(green, black);
-					border:1px solid black;
-					
-					
-				}
-				.h .u{
-					background-color:white;
-					border:1px solid black;
-					border-radius:100px;
-				}
-				.h a {
-					text-decoration:none;
-					color:white;
-					font-size:20px;
-
-				}
-
-				
+.e{
+  
+  margin:1px;
+  float:left;
+  position: absolute;
+  z-index: -1;
+  border: 7px solid #813912;
+  border-radius:30px;
+  height:200px;
+  width: 300px;
+}
