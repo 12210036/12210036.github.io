@@ -63,7 +63,7 @@ header ul :hover{
 
 .prt2 ul li{
   border-right:1px sollid gray;
-  display:block;
+  display:inline-block;
   width:200px;
   list-style: none;
 }
