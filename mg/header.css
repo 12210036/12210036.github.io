@@ -64,6 +64,7 @@ header ul :hover{
 }
 
 .prt2 ul li{
+  text-overflow: ellipsis;
   border-right:1px sollid gray;
   display:inline-block;
   width:200px;
