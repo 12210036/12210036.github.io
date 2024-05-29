@@ -57,6 +57,7 @@ header ul :hover{
 }
 
 .prt2 ul{
+  text-align:center;
   background-color: floralwhite;
   text-align:center;
   margin:0;
