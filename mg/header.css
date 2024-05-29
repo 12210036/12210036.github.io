@@ -51,8 +51,9 @@ header ul :hover{
   border: #8a5b19 solid 2p
 }
 .prt2{
-  max-width:100%;
   max-height:220px;
+  max-width:100%;
+  
   padding:50px;
   margin-top:500px;
   background:white;
