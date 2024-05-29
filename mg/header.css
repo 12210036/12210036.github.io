@@ -64,7 +64,7 @@ header ul :hover{
 }
 
 .prt2 ul li{
-  text-overflow: ellipsis;
+  overflow: ellipsis;
   border-right:1px sollid gray;
   display:inline-block;
   width:200px;
@@ -78,7 +78,7 @@ header ul :hover{
   font-family:Arial, Helvetica, sans-serif;
   font-size:17px;
 }
-.prt2 ul li :hover{
+.prt2 ul li img :hover{
   
   width:145px;
 }
