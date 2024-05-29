@@ -51,12 +51,9 @@ header ul :hover{
   border: #8a5b19 solid 2p
 }
 .prt2{
-<<<<<<< HEAD
-=======
   max-height:220px;
   max-width:100%;
   padding:50px;
->>>>>>> 740fa6b8190d7b816a086c14aef44fd59a9e7937
   margin-top:500px;
   background:white;
 }
