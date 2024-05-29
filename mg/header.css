@@ -51,31 +51,40 @@ header ul :hover{
   border: #8a5b19 solid 2p
 }
 .prt2{
-  width: 100%;
-  top:0px;
-  background-image:#ffff;
+<<<<<<< HEAD
+=======
+  max-height:220px;
+  max-width:100%;
+  padding:50px;
+>>>>>>> 740fa6b8190d7b816a086c14aef44fd59a9e7937
+  margin-top:500px;
+  background:white;
 }
 
 .prt2 ul{
-  list-style-type: none;
   text-align:center;
   margin:0;
   padding:0;
 }
 
 .prt2 ul li{
-  background-color: #F6E3CA;
-  float: left;
-  text-align: center;
+  border-right:1px sollid gray;
+  display:block;
+  width:200px;
+  list-style: none;
 }
-/* no puedo estar con ella, es demasiado para mi. su cabello y su personalidad son perfectos como si los dioses la allan hecho*/
+
 .prt2 ul li a{
   text-decoration: none;
   text-align:center;
-  color:#ffffff;
+  color:black;
   font-family:Arial, Helvetica, sans-serif;
-  font-size:20px;
+  font-size:17px;
 }
-.prt2 ul :hover{
-  font-size:30px;
+.prt2 ul li img :hover{
+  
+  width:145px;
+}
+.prt2 ul li img{
+  width:128px;
 }
