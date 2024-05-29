@@ -52,22 +52,21 @@ header ul :hover{
 }
 .prt2{
   width: 100%;
-  position:fixed;
   top:0px;
-  background-image:linear-gradient(to right,orange, lightgray);
+  background-image:#ffff;
 }
 
 .prt2 ul{
-  
+  list-style-type: none;
   text-align:center;
   margin:0;
   padding:0;
 }
 
 .prt2 ul li{
-  margin:25px;
-  display:inline-block;
-  list-style: none;
+  background-color: #F6E3CA;
+  float: left;
+  text-align: center;
 }
 /* no puedo estar con ella, es demasiado para mi. su cabello y su personalidad son perfectos como si los dioses la allan hecho*/
 .prt2 ul li a{
