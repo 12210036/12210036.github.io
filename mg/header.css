@@ -1,4 +1,4 @@
-body{
+*{
   margin:0;
   padding:0;
   background-image: url(img/fondo.webp);
@@ -34,7 +34,7 @@ header ul li a{
   font-size:20px;
 }
 header ul :hover{
-  
+
   font-size:30px;
 }
 
