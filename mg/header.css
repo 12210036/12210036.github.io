@@ -55,7 +55,6 @@ header ul :hover{
 .prt2 ul{
   width:100%;
   height: auto;
-  overflow-y: scroll;
   text-align:center;
   margin:0;
   padding:0;
@@ -67,16 +66,12 @@ header ul :hover{
   width:200px;
   list-style: none;
 }
-
 .prt2 ul li a{
   text-decoration: none;
   text-align:center;
   color:black;
   font-family:Arial, Helvetica, sans-serif;
   font-size:17px;
-}
-.prt2 ul li :hover{
-  width:145px;
 }
 .prt2 ul li img{
   width:128px;
