@@ -52,10 +52,12 @@ header ul :hover{
   padding:50px;
   margin-top:500px;
   background:white;
-  background-size:contain;
 }
 
 .prt2 ul{
+  width:100%;
+  height: auto;
+  overflow-y: scroll;
   text-align:center;
   margin:0;
   padding:0;
@@ -75,8 +77,7 @@ header ul :hover{
   font-family:Arial, Helvetica, sans-serif;
   font-size:17px;
 }
-.prt2 ul li img :hover{
-  
+.prt2 ul li :hover{
   width:145px;
 }
 .prt2 ul li img{
