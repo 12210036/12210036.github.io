@@ -21,7 +21,7 @@ header ul{
 }
 
 header ul li{
-  margin:20px;
+  margin:25px;
   display:inline-block;
   list-style: none;
 }
@@ -34,7 +34,7 @@ header ul li a{
   font-size:20px;
 }
 header ul :hover{
-
+  
   font-size:30px;
 }
 
@@ -48,7 +48,6 @@ header ul :hover{
   margin-right:10px;
   float:left;
 }
-
 .prt2{
   margin-top:500px;
   background:white;
