@@ -1,0 +1,7 @@
+body{
+    background:image("https://img.freepik.com/free-vector/hand-drawn-mexico-independence-background_23-2149604151.jpg");
+  }
+  ul{
+      display:flex;
+      list-style:none;
+  }
