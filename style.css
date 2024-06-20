@@ -1,0 +1,58 @@
+body{
+  background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_del_INE_%28sin_texto%29.svg/1280px-Logo_del_INE_%28sin_texto%29.svg.png");
+  margin:0px;
+}
+.go{
+  margin-top:0px;
+  padding:10px;
+  border:0;
+  background-color: #F6E3CA;
+  list-style-type: none;
+  text-align: center
+
+}
+.go li{
+  display: inline;
+  margin-right: 10px;
+}
+.pou{
+  z-index:-1;
+  text-align:center;
+  background-image:linear-gradient(to bottom right, #ffb8f5 , #f759bd ) ;
+  padding:15px;
+  border-radius: 20px;
+  width: 55%;
+  margin-top:30px;
+  box-shadow: 0px 0px 10px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.pou ul{
+  list-style:none;
+}
+.pou ul li input{
+  background:#fdcefc;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fbd0fb;
+  border-radius: 5px;
+}
+.pou ul li label{
+  font-size:15px;
+  font-family:arial;
+}
+.ho{
+  background-color: #ff0080;
+  color:white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: 10px;
+}
