@@ -1,11 +1,11 @@
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
-
-
-function holi(){
  const x = getRandomInt(20000000000000001);
 alert(x);
+
+function holi(){
+
   
   var input = document.getElementById("searchInput");
   
