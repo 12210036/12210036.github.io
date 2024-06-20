@@ -10,7 +10,7 @@ function holi(){
   var input = document.getElementById("searchInput");
   
   if (x == input){
-  location.href ="index3.html";
+  window.location.href ="index3.html";
   }
 
 }
