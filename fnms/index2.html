@@ -13,16 +13,13 @@
     function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
-    
-const x = getRandomInt(20000000000000001);
+
+x = getRandomInt(20000000000000001);
 alert(x);
 
 function holi(){
-
   
-  var input = document.getElementById("o");
-  
-  if (x == input.value){
+  if (x == input){
   window.location.href = 'index3.html'
   }
   else{
@@ -41,9 +38,14 @@ function holi(){
       <br>
       <input id="o" type="number">
       <br>
-      <button class="ho" type="submit" onclick="holi();">enviar</button>
+      <button class="ho" type="submit" onclick="
+        var ine = document.getElementById('o');
+        if (x == ine.value){
+        window.location.href = 'index3.html'
+        }
+        else{          alert('hola');        }">enviar</button>
       </div>
-  
+
 </body>
 
 </html>
