@@ -1,7 +1,7 @@
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
- const x = getRandomInt(20000000000000001);
+ x = getRandomInt(20000000000000001);
 alert(x);
 
 function holi(){
