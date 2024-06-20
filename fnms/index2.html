@@ -13,13 +13,14 @@
     function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
- x = getRandomInt(20000000000000001);
+    
+const x = getRandomInt(20000000000000001);
 alert(x);
 
 function holi(){
 
   
-  var input = document.getElementById("searchInput");
+  var input = document.getElementById("o");
   
   if (x == input){
   window.location.href = 'index3.html'
@@ -35,7 +36,7 @@ function holi(){
     <div class="pou">
       <label for="">Clave Electoral</label>
       <br>
-      <input id="searchInput" type="number">
+      <input id="o" type="number">
       <br>
       <button class="ho" type="submit" onclick="holi();">enviar</button>
       </div>
