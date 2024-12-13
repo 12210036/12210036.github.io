@@ -1,0 +1,89 @@
+body{
+  font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;
+  font-size:17px;
+  /*background-image:url("https://media.tenor.com/r0R0N3dI3kIAAAAM/dancing-cat-dance.gif");*/
+  background-color: #888888;
+  margin:0px;
+
+}
+
+.go{
+  position:fixed;
+  z-index:100;
+  width:100%;
+  margin-top:0px;
+  padding:10px;
+  border:0;
+  background-color: #6fb4ff;
+  list-style-type: none;
+  display:flex;
+  justify-content:space-evenly;
+
+}
+
+.go li{
+  cursor:pointer;
+  color:white;
+  margin-right: 10px;
+  display: inline;
+
+}
+
+.go li a{
+    color:white;
+text-decoration: none;
+
+}
+
+.block{
+  display:block;
+  padding:10px;
+  margin-bottom:100px;
+  color:white;
+  background: #888888;
+  transition: background 3s ;
+
+}
+.block:hover{
+  background: #6fb4ff ;
+
+}
+
+.block_2{
+
+  padding:10px;
+  margin-bottom:500px;
+  color:white;
+  background: #6fb4ff ;
+  transition: background 1s ;
+  animation: slide-in 2s;
+}
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+    background: #888888 ;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+    background: #6fb4ff ;
+  }
+}
+.block_2 p{
+  max-width:60%;
+  float: right;
+  
+}
+.block_2 img{
+  max-width:auto;
+
+
+}
+.aña{
+  display:none;
+}
+
+.moo{
+  display:inline-block;
+}
