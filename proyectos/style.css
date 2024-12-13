@@ -2,7 +2,7 @@ body{
   font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;
   font-size:17px;
   background-image:url("https://media.tenor.com/r0R0N3dI3kIAAAAM/dancing-cat-dance.gif");
-  /*background-color: #888888;*/
+
   margin:0px;
 
 }
@@ -40,7 +40,7 @@ text-decoration: none;
   padding:10px;
   margin-bottom:100px;
   color:white;
-  /*background: #888888;*/
+
   transition: background 3s ;
 
 }
@@ -62,7 +62,7 @@ text-decoration: none;
   0% {
     opacity: 0;
     transform: translateX(-100%);
-   /* background: #888888 ;*/
+    background: #888888 ;
   }
   100% {
     opacity: 1;
