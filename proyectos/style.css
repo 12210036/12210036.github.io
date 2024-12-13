@@ -40,7 +40,7 @@ text-decoration: none;
   padding:10px;
   margin-bottom:100px;
   color:white;
-  background: #888888;
+  /*background: #888888;*/
   transition: background 3s ;
 
 }
