@@ -54,7 +54,7 @@ text-decoration: none;
   padding:10px;
   margin-bottom:500px;
   color:white;
-  /*background: #6fb4ff ;*/
+  background: #6fb4ff ;
   transition: background 1s ;
   animation: slide-in 2s;
 }
@@ -62,7 +62,7 @@ text-decoration: none;
   0% {
     opacity: 0;
     transform: translateX(-100%);
-    background: #888888 ;
+   /* background: #888888 ;*/
   }
   100% {
     opacity: 1;
